@@ -6,8 +6,8 @@ $ git add *.c
 $ git add README
 $ git commit -m 'initial project version'
 
-$ git clone git://github.com/schacon/grit.git 
-#  git clone git://github.com/schacon/grit.git mygrit
+$ git clone [url] 
+
 git status
 
 git mv  README.txt README
@@ -17,6 +17,7 @@ git diff
 git diff --cached 
 
 git commit -m "Story 182: Fix benchmarks for speed"
+git push
 
 $ git commit -m 'initial commit'
 $ git add forgotten_file
